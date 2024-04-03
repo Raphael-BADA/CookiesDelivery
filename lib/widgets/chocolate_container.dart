@@ -22,19 +22,19 @@ class ChocolateContainer extends StatefulWidget {
 class _ChocolateContainerState extends State<ChocolateContainer> {
   @override
   Widget build(BuildContext context) {
-    return Card(
-      color: Colors.amber,
+    return Container(
+      // color: Colors.amber,
       child: Stack(
         children: [
           Container(
             height: MediaQuery.of(context).size.height * 0.35,
             width: (MediaQuery.of(context).size.width - 50) * 0.4,
-            color: bg,
+            // color: bg,
           ),
           Positioned(
             top: MediaQuery.of(context).size.height * 0.10,
-            child: Card(
-              color: bg,
+            child: Container(
+              // color: bg,
               child: Stack(
                 children: [
                   Container(
